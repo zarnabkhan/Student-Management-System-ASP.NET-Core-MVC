@@ -1,6 +1,4 @@
 # Student-Management-System-ASP.NET-Core-MVC
-Student Management System built with ASP.NET Core MVC, SQL Server, and Stored Procedures, implementing full CRUD operations.
-# Student Management System (Stored Procedure CRUD)
 
 A web-based Student Management System developed using **ASP.NET Core MVC** and **SQL Server**. This project demonstrates complete CRUD (Create, Read, Update, Delete) functionality using **Stored Procedures** instead of Entity Framework.
 
