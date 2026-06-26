@@ -1,0 +1,14 @@
+﻿
+@model StudentManage.Models.Student
+
+<h2>Add Student</h2>
+
+<form asp-action="Create">
+    <input asp-for="Name" placeholder="Name" class="form-control" /><br />
+    <input asp-for="Email" placeholder="Email" class="form-control" /><br />
+    <input asp-for="Age" placeholder="Age" class="form-control" /><br />
+    <input asp-for="Department" placeholder="Department" class="form-control" /><br />
+
+    <button type="submit" class="btn btn-success">Save</button>
+</form>
+

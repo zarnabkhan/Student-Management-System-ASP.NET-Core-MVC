@@ -1,0 +1,14 @@
+﻿@model StudentManage.Models.Student
+https://localhost:7257/
+<h2>Edit Student</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <input asp-for="Name" class="form-control" /><br />
+    <input asp-for="Email" class="form-control" /><br />
+    <input asp-for="Age" class="form-control" /><br />
+    <input asp-for="Department" class="form-control" /><br />
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
